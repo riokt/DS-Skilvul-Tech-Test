@@ -2,6 +2,9 @@
 
 The Terra Store Recommendation System is a Streamlit app designed to provide personalized product recommendations for customers based on their purchase history. This document provides the steps for setting up and running the application from the GitHub repository.
 
+The online app can be accessed here: https://ai-skilvul-tech-test-rizqi-okta-ekoputris.streamlit.app/
+
+# Run locally
 ## Prerequisites
 
 - Git
