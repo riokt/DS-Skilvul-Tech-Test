@@ -7,7 +7,7 @@ st.set_page_config(page_title="Terra Store Recommendation System", page_icon="âœ
 
 # Set the title and font size
 st.image("header.png", use_column_width=True,)
-st.markdown("<span style='font-size: 8px;'> Image source: https://depositphotos.com/editorial/interior-of-the-electronics-shop-m-video-in-samara-russia-63829565.html </span>")
+st.markdown("<span style='font-size: 8px;'>Image source: https://depositphotos.com/editorial/interior-of-the-electronics-shop-m-video-in-samara-russia-63829565.html </span>", unsafe_allow_html=True)
 st.subheader("Please put the customer ID and number of recommendation")
 customer_id = st.number_input("Customer ID", value=0, step=1)
 n = st.number_input("Number of Recommendation", value=10, step=1)
